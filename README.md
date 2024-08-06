@@ -1,14 +1,6 @@
-# Swisstronik Tesnet Techinal Task 3 (Mint a ERC-721 Token)
+# Swisstronik Task 3 (Mint a ERC-721 Token)
 
 link : [Click!](https://www.swisstronik.com/testnet2/dashboard)
-
-Feel free donate to my EVM address
-
-EVM :
-
-```bash
-0x9902C3A98Df4b240ad5496cC26F89bAb8058f4aE
-```
 
 ## Steps
 
@@ -53,7 +45,7 @@ contract TestNFT is ERC721 {
 
     event NFTMinted(address recipient, uint256 tokenId);
 
-    constructor() ERC721("IzzyNFT", "IZZNFT") {}
+    constructor() ERC721("BDDK", "BDDK") {}
 
     function mintNFT(address recipient) public returns (uint256) {
         _currentTokenId += 1;
@@ -98,7 +90,14 @@ npm run mint
 - Copy the address and paste the tx hash link into testnet dashboard
 - push this project to your github and paste your repository link in testnet dashboard
 
-by :
+Tutorial by :
+
 github : [Mnuralim](https://github.com/Mnuralim)
-twitter : @Izzycracker04
-telegram : @fitriay19
+
+
+My Social Media:
+
+twitter : @Waris_Khuzaini
+
+
+Feel free donate : 0x6212423B7c0988474863B7541e4e0E78300A0870
